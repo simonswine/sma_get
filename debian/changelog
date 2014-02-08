@@ -1,0 +1,5 @@
+sma-get (0.982-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Christian Simon <simon@swine.de>  Sat, 08 Feb 2014 17:20:46 +0100

@@ -1,0 +1,22 @@
+Source: sma-get
+Section: unknown
+Priority: extra
+Maintainer: Christian Simon <simon@swine.de>
+Build-Depends: debhelper (>= 8.0.0), libyasdi-dev
+Standards-Version: 3.9.4
+Homepage: https://code.google.com/p/sma-get/
+
+Package: sma-get
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: datacollector for SMA inverters
+ sma_get is written in C, it is a datacollector for SMA inverters and is
+ developed to work together with other inverters, communication with different
+ protocols and baudrates, on 1 rs485 interface-bus like Power-one's.  I wrote
+ it for Jean-Marc Louviaux's 123Solar Project
+ It is also working with Martin Diphoorn's WebSolarLog
+ .
+ sma_get is communicating directly with the SMA Sunny-Boy devices.
+ The Sunnyboy's don't have an interface from stock, 
+ you have to buy the add-on-board for your device from SMA, the 485PB-NR or,
+ 485PB-MS-NR.  Tip: sometimes you will find it much cheaper on ebay
